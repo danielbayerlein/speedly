@@ -88,10 +88,10 @@ Usage: speedly [--url[=<url>,=<url>]] [--advanced] [--version]
 
 ## Special Thanks
 
-* [Sven Winkler (@svenwin)](https://github.com/svenwin) - For the name and suggestions for
+* [Sven Winkler (@sven-q)](https://github.com/sven-q) - For the name and suggestions for
 improvement.
-* [Ariya Hidayat (@ariya)](https://github.com/ariya) - [PhantomJS](/ariya/phantomjs)
-* [Marcel Duran (@marcelduran)](https://github.com/marcelduran) - [YSlow](/marcelduran/yslow)
+* [Ariya Hidayat (@ariya)](https://github.com/ariya) - [PhantomJS](https://github.com/ariya/phantomjs)
+* [Marcel Duran (@marcelduran)](https://github.com/marcelduran) - [YSlow](https://github.com/marcelduran/yslow)
 
 ## Contributing
 
