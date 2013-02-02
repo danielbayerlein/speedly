@@ -1,0 +1,106 @@
+# Speedly
+
+Speedly is a simple CLI tool to test your page speed performance. It works with
+[YSlow](/marcelduran/yslow).
+
+## Requirements
+
+Speedly use [PhantomJS](/ariya/phantomjs).
+
+If you're on OS X, [Homebrew](/mxcl/homebrew) is the simples way to install
+[PhantomJS](/ariya/phantomjs):
+
+``` bash
+$ brew update && brew install phantomjs
+```
+
+For other operating systems, please check the
+[download page](http://phantomjs.org/download.html).
+
+## Installation
+
+Install it yourself as:
+
+``` bash
+$ gem install speedly
+```
+
+And then execute:
+
+``` bash
+$ bundle
+```
+
+## Usage
+
+Run Speedly in Basic mode:
+
+```
+$ speedly -u http://www.zwoio.de
+
+URL:          http://www.zwoio.de/
+Loading time: 2.3 s (2289 ms)
+```
+
+You can run Speedly with multiple URLs:
+
+```
+$ speedly -u http://www.zwoio.de,http://www.github.com
+
+URL:          http://www.zwoio.de/
+Loading time: 2.1 s (2111 ms)
+
+URL:          https://github.com/
+Loading time: 6.3 s (6327 ms)
+```
+
+`-a, --advanced` run Speedly in Advanced mode:
+
+```
+$ speedly -a -u http://www.zwoio.de
+
+URL:          http://www.zwoio.de/
+Loading time: 2.2 s (2173 ms)
+Requests:     14
+Score:        84/100
+Size:         419 kB (429499 B)
+```
+
+`-v, --version` display the version:
+
+```
+$ speedly -v
+
+Speedly version 0.1.0
+```
+
+`-h, --help` display the help message:
+
+```
+$ speedly --help
+
+Usage: speedly [--url[=<url>,=<url>]] [--advanced] [--version]
+    -u, --urls          Your URL(s)
+    -a, --advanced      Use advanced mode.
+    -v, --version       Display the version.
+    -h, --help          Display this help message.
+```
+
+## Special Thanks
+
+* [Sven Winkler (@svenwin)](/svenwin) - For the name and suggestions for
+improvement.
+* [Ariya Hidayat (@ariya)](/ariya) - [PhantomJS](/ariya/phantomjs)
+* [Marcel Duran (@marcelduran)](/marcelduran) - [YSlow](/marcelduran/yslow)
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new [Pull Request](/danielbayerlein/speedly/pull/new/master)
+
+## Copyright
+
+Copyright (c) 2013 Daniel Bayerlein. See [LICENSE](/danielbayerlein/speedly/blob/master/LICENSE) for details.
