@@ -1,14 +1,14 @@
 # Speedly
 
 Speedly is a simple CLI tool to test your page speed performance. It works with
-[YSlow](/marcelduran/yslow).
+[YSlow](https://github.com/marcelduran/yslow).
 
 ## Requirements
 
-Speedly use [PhantomJS](/ariya/phantomjs).
+Speedly use [PhantomJS](https://github.com/ariya/phantomjs).
 
-If you're on OS X, [Homebrew](/mxcl/homebrew) is the simples way to install
-[PhantomJS](/ariya/phantomjs):
+If you're on OS X, [Homebrew](https://github.com/mxcl/homebrew) is the simples way to install
+[PhantomJS](https://github.com/ariya/phantomjs):
 
 ``` bash
 $ brew update && brew install phantomjs
@@ -88,10 +88,10 @@ Usage: speedly [--url[=<url>,=<url>]] [--advanced] [--version]
 
 ## Special Thanks
 
-* [Sven Winkler (@svenwin)](/svenwin) - For the name and suggestions for
+* [Sven Winkler (@svenwin)](https://github.com/svenwin) - For the name and suggestions for
 improvement.
-* [Ariya Hidayat (@ariya)](/ariya) - [PhantomJS](/ariya/phantomjs)
-* [Marcel Duran (@marcelduran)](/marcelduran) - [YSlow](/marcelduran/yslow)
+* [Ariya Hidayat (@ariya)](https://github.com/ariya) - [PhantomJS](/ariya/phantomjs)
+* [Marcel Duran (@marcelduran)](https://github.com/marcelduran) - [YSlow](/marcelduran/yslow)
 
 ## Contributing
 
@@ -99,8 +99,8 @@ improvement.
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
-5. Create new [Pull Request](/danielbayerlein/speedly/pull/new/master)
+5. Create new [Pull Request](../../pull/new/master)
 
 ## Copyright
 
-Copyright (c) 2013 Daniel Bayerlein. See [LICENSE](/danielbayerlein/speedly/blob/master/LICENSE) for details.
+Copyright (c) 2013 Daniel Bayerlein. See [LICENSE](LICENSE) for details.
