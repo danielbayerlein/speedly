@@ -19,10 +19,10 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_runtime_dependency 'json', '~> 1.7.6'
+  gem.add_runtime_dependency 'json', '~> 1.7.7'
   gem.add_runtime_dependency 'slop', '~> 3.4.3'
   gem.add_runtime_dependency 'term-ansicolor', '~> 1.0.7'
 
-  gem.add_development_dependency 'rspec', '~> 2.12.0'
+  gem.add_development_dependency 'rspec', '~> 2.13.0'
   gem.add_development_dependency 'fuubar', '~> 1.1.0'
 end
