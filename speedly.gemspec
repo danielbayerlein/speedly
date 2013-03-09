@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.version       = Speedly::VERSION
   gem.authors       = ['Daniel Bayerlein']
   gem.email         = ['daniel.bayerlein@googlemail.com']
-  gem.description   = %q{A CLI tool to test your page speed performance.}
+  gem.description   = 'A CLI tool to test your page speed performance.'
   gem.summary       = 'Speedly is a simple CLI tool to test your page speed ' \
                       'performance. It works with YSlow.'
   gem.homepage      = 'https://github.com/danielbayerlein/speedly'
@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'json', '~> 1.7.7'
   gem.add_runtime_dependency 'slop', '~> 3.4.3'
-  gem.add_runtime_dependency 'term-ansicolor', '~> 1.0.7'
+  gem.add_runtime_dependency 'term-ansicolor', '~> 1.1.1'
 
   gem.add_development_dependency 'rspec', '~> 2.13.0'
   gem.add_development_dependency 'fuubar', '~> 1.1.0'
