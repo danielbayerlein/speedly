@@ -1,6 +1,7 @@
 # Speedly
 
 [![Gem Version](https://badge.fury.io/rb/speedly.png)](http://badge.fury.io/rb/speedly)
+[![Dependency Status](https://gemnasium.com/danielbayerlein/speedly.png)](https://gemnasium.com/danielbayerlein/speedly)
 
 Speedly is a simple CLI tool to test your page speed performance. It works with
 [YSlow](https://github.com/marcelduran/yslow).
