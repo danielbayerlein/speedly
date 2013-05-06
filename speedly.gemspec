@@ -20,8 +20,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_runtime_dependency 'json', '~> 1.7.7'
-  gem.add_runtime_dependency 'slop', '~> 3.4.3'
-  gem.add_runtime_dependency 'term-ansicolor', '~> 1.1.1'
+  gem.add_runtime_dependency 'slop', '~> 3.4.4'
+  gem.add_runtime_dependency 'term-ansicolor', '~> 1.1.5'
 
   gem.add_development_dependency 'rspec', '~> 2.13.0'
   gem.add_development_dependency 'fuubar', '~> 1.1.0'
