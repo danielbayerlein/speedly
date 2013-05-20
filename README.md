@@ -106,4 +106,4 @@ improvement.
 
 ## Copyright
 
-Copyright (c) 2013 Daniel Bayerlein. See [LICENSE](LICENSE) for details.
+Copyright (c) 2013 Daniel Bayerlein. See [LICENSE](./LICENSE.md) for details.
