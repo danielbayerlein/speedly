@@ -6,7 +6,7 @@
 Speedly is a simple CLI tool to test your page speed performance. It works with
 [YSlow](https://github.com/marcelduran/yslow).
 
-## Requirements
+## Dependency
 
 Speedly use [PhantomJS](https://github.com/ariya/phantomjs).
 
