@@ -74,7 +74,7 @@ Size:         419 kB (429499 B)
 ```
 $ speedly -v
 
-Speedly version 0.1.1
+Speedly version 0.1.2
 ```
 
 `-h, --help` display the help message:
