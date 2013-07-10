@@ -10,7 +10,7 @@ Speedly is a simple CLI tool to test your page speed performance. It works with
 
 Speedly use [PhantomJS](https://github.com/ariya/phantomjs).
 
-If you're on OS X, [Homebrew](https://github.com/mxcl/homebrew) is the simples way to install
+If you're on OS X, [Homebrew](https://github.com/mxcl/homebrew) is the simplest way to install
 [PhantomJS](https://github.com/ariya/phantomjs):
 
 ``` bash
