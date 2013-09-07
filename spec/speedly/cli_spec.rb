@@ -6,7 +6,7 @@ describe Speedly::CLI do
     it 'expect a SystemExit' do
       Speedly::Phantomjs.stub(:installed?).and_return false
       cli = Speedly::CLI.allocate
-      cli.stub!(:puts)
+      cli.stub(:puts)
       expect { cli.run('http://example.com', 'basic') }
         .to raise_error(SystemExit)
     end

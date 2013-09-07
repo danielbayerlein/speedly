@@ -9,10 +9,10 @@ describe Speedly::Phantomjs do
         .to raise_error(Speedly::PhantomjsLoadError)
     end
 
-    it 'expect not a Speedly::PhantomjsLoadError' do
+    it 'expect not a Error' do
       Speedly::Phantomjs.stub(:installed?).and_return true
       expect { Speedly::Phantomjs.run(nil, '--version') }
-        .to_not raise_error(Speedly::PhantomjsLoadError)
+        .to_not raise_error
     end
   end
 
