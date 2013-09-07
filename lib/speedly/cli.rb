@@ -12,17 +12,17 @@ class Speedly::CLI
       banner 'Usage: speedly [--url[=<url>,=<url>]] [--advanced] ' \
              '[--version]'
 
-      on :u=, :urls=, 'Your URL(s)', as: Array, delimiter: ',', argument: true
+      on :u=, :url=, 'Your URL(s)', as: Array, delimiter: ',', argument: true
       on :a, :advanced, 'Use advanced mode.'
       on :v, :version, 'Display the version.' do
         puts "Speedly version #{Speedly::VERSION}"
       end
     end
 
-    if opts.urls?
-      opts[:urls].each_with_index do |url, i|
+    if opts.url?
+      opts[:url].each_with_index do |url, i|
         run(url, opts.advanced? ? 'advanced' : 'basic')
-        puts "\n" unless i + 1 == opts[:urls].length
+        puts "\n" unless i + 1 == opts[:url].length
       end
     elsif !opts.version? && !opts.help?
       puts opts.help

@@ -83,7 +83,7 @@ Speedly version 0.1.2
 $ speedly --help
 
 Usage: speedly [--url[=<url>,=<url>]] [--advanced] [--version]
-    -u, --urls          Your URL(s)
+    -u, --url           Your URL(s)
     -a, --advanced      Use advanced mode.
     -v, --version       Display the version.
     -h, --help          Display this help message.
