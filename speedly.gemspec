@@ -13,6 +13,7 @@ Gem::Specification.new do |gem|
   gem.summary       = 'Speedly is a simple CLI tool to test your page speed ' \
                       'performance. It works with YSlow.'
   gem.homepage      = 'https://github.com/danielbayerlein/speedly'
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
