@@ -21,7 +21,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   gem.add_runtime_dependency 'json', '~> 1.8.1'
-  gem.add_runtime_dependency 'slop', '~> 3.4.7'
+  gem.add_runtime_dependency 'slop', '~> 3.5.0'
   gem.add_runtime_dependency 'term-ansicolor', '~> 1.3.0'
 
   gem.add_development_dependency 'rspec', '~> 2.14.1'
