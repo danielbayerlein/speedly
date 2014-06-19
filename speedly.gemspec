@@ -24,6 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'slop', '~> 3.5.0'
   gem.add_runtime_dependency 'term-ansicolor', '~> 1.3.0'
 
-  gem.add_development_dependency 'rspec', '~> 2.14.1'
-  gem.add_development_dependency 'fuubar', '~> 1.3.2'
+  gem.add_development_dependency 'rspec', '~> 3.0.0'
+  gem.add_development_dependency 'fuubar', '~> 2.0.0.rc1'
 end

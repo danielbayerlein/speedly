@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 describe Speedly do
 
   %w(advanced basic).each do |method|
@@ -20,7 +18,7 @@ describe Speedly do
         else
           [Speedly.advanced('http://example.com'), 'r']
         end
-        JSON.parse(json).should have_key(key)
+        expect(JSON.parse(json)).to have_key(key)
       end
     end
   end
